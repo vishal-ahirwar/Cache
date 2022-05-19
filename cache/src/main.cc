@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
     while (true)
     {
-        std::cerr << "enter two operand to perform * operation : ";
+        std::cerr << "enter two values to perform * operation : ";
         long long int x1{0}, x2{0}, result{0};
         std::cin >> x1 >> x2;
         result = multy(x1, x2);
