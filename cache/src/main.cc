@@ -9,11 +9,11 @@ int main(int argc, char *argv[])
 {
     while (true)
     {
-        std::cerr << "enter two values to perform * operation : ";
+        std::cerr << "Enter Two Values To Perform * Operation : ";
         long long int x1{0}, x2{0}, result{0};
         std::cin >> x1 >> x2;
         result = multy(x1, x2);
-        std::cerr << "result : " << result << "\n";
+        std::cerr << "\nresult : " << result << "\n";
     };
 
     return 0;

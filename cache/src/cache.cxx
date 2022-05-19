@@ -22,7 +22,7 @@ long long int Cache(const long long int &x1, const long long int &x2)
     {
         if (value== eq)
         {
-            std::cerr<<"\ncaching value ...";
+            std::cerr<<"\ncached value ...";
             return eq.result;
         };
     };
@@ -37,7 +37,7 @@ long long int multy(const long long int &x1, const long long int &x2)
     };
 
     value.result= (x1 * x2);
-    std::cerr<<"Generating Cache ...\n";
+    std::cerr<<"Generating Cache ...";
     cache.push_back(value);
     return value.result;
 };
